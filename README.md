@@ -31,3 +31,13 @@ null 0
 undefined NaN
 ```
 First use```valueOf()```, then```toString()```
+###### other examples
+```
+[""] 0
+["0"] 0
+["-0"] -0
+[null] 0
+[undefined] 0
+[1,2,3] NaN
+[[[]]] 0
+```
