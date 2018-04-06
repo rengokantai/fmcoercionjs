@@ -41,3 +41,12 @@ First use```valueOf()```, then```toString()```
 [1,2,3] NaN
 [[[]]] 0
 ```
+
+### ToBoolean
+Falsy|truthy
+---|---
+0 -0 +0 |
+null |
+NaN |
+false |
+undefined | 
