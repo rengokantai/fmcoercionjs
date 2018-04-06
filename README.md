@@ -50,3 +50,6 @@ null |
 NaN |
 false |
 undefined | 
+
+Means
+- Truthy, if you legitimately do a boolean coercion on it, it become a true value
