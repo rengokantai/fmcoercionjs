@@ -53,3 +53,6 @@ undefined |
 
 Means
 - Truthy, if you legitimately do a boolean coercion on it, it become a true value
+
+
+## Implicit vs explicit coercion
