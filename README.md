@@ -56,3 +56,30 @@ Means
 
 
 ## Implicit vs explicit coercion
+### Explicit Coercion: Strings & Numbers
+### Explicit Coercion: Booleans
+```
+var baz = Boolean(foo);
+baz=!!foo;
+```
+using tilde
+```
+if(~foo.indexOf("f")){
+  alert("found")
+}
+```
+
+
+### Implicit Coercion: The Bad Parts
+```
+"0" ==null
+"0"==undefined
+"0"==false
+"0"==0
+```
+
+### Coercion Resources and Surprises
+```
+parseInt("08");  //0
+parseInt(1/0,19); //18
+```
