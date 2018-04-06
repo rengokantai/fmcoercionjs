@@ -83,3 +83,15 @@ if(~foo.indexOf("f")){
 parseInt("08");  //0
 parseInt(1/0,19); //18
 ```
+
+
+### Coercion Resources and Surprises
+```
+String("abc") instanceof String //false
+(new String("abc")) instanceof String;
+String("abc") == (new String("abc"));
+```
+```
+Array(5).join("wat"-1)+" Batman";
+// NaNNaNNaNNaN Batman!
+```
